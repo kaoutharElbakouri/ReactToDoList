@@ -1,0 +1,90 @@
+      body{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ color: midnigntBlue;
+ background-color:steelBlue;
+ font-family: 'Athiti', sans-serif;
+
+}
+#toDoList{
+ width: 400px;
+ background-color: white;
+ height:auto;
+ display: flex;
+ justify-content: center;
+ align-items: flex-start;
+ text-align:center;
+}
+input{
+ height:24px;
+ font-family: 'Athiti', sans-serif;
+ border-style: solid;
+ border-color: black;
+}
+button{
+ background-color:peru;
+ font-weight: bold;
+ height: 30px;
+ border-style: solid;
+ border-color: black;
+ border-left: 1px solid black;
+ border-right: 1px solid black;
+ font-family: 'Athiti', sans-serif;
+}
+button:hover{
+ background-color:#B09400;
+}
+ul{
+ list-style-type: none;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ width:400px;
+ height:100%;
+ margin:10px;
+ padding:0;
+}
+ul li{
+ width:300px;
+ background-color:#2A2A2A;
+ /* height: 100px; */
+ color:white;
+ border-bottom: 3px solid black;
+ display: flex;
+ align-items:center;
+ justify-content: flex-end;
+
+}
+li p{
+ width:70%;
+ padding:10px;
+text-align: justify;
+
+ /* white-space: nowrap;
+ overflow: hidden;
+ max-width: 300px;
+ border-left:1em solid transparent;
+ border-right:1em solid transparent;
+ text-overflow: ellipsis; */
+ word-wrap:break-word;
+}
+.btn{
+ width:70px;
+ height:50px;
+ border:none;
+}
+.btn:nth-child(1){
+ border-bottom: 1px solid black;
+}
+.done{
+ background-color:#191919;
+}
+#task{
+  border-style: solid;
+  border-color: black;
+  background-color:peru;
+  font-weight: bold;
+  flot:right;
+}
