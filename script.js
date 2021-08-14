@@ -5,9 +5,6 @@
      item:
      [
        //la vue actuelle de notre app
-       // {id: 1, do: 'Food shopping', done: false},
-       // {id: 2, do: 'Prepare dinner', done: false},
-       // {id: 3, do: 'Yoga class', done: true}
      ]
    }
  }
